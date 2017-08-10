@@ -348,7 +348,7 @@ class PHPGraphLibPie extends PHPGraphLib
 
 	public function setLabelTextColor($color)
 	{
-		$this->setGenericColor($color, '$this->label_text_color', "Label text color not specified properly.");
+		$this->setGenericColor($color, 'label_text_color', "Label text color not specified properly.");
 	}
 
 	public function setPrecision($digits)
